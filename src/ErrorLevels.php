@@ -6,7 +6,10 @@ use Bera\Joy\Interfaces\ErrorLevelInterface;
 
 class ErrorLevels implements ErrorLevelInterface
 {
-    public static function getAvailableErrorLevels()
+    /**
+     * @return array
+     */
+    public static function getAvailableErrorLevels(): array
     {
         return array(
             'ERROR',
