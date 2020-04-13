@@ -1,0 +1,7 @@
+# vs code files
+.vscode
+
+# third party packages
+/vendor
+
+.phpunit.result.cache
