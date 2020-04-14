@@ -4,4 +4,9 @@
 # third party packages
 /vendor
 
+# log files
+*.txt
+
 .phpunit.result.cache
+
+test.php

@@ -90,4 +90,12 @@ abstract class BaseLogger
 
         return $this->log_path . '/' . $this->file_name;
     }
+
+    /**
+     * class destructor
+     */
+    public function __destruct()
+    {
+        $this->closeFileResource();
+    }
 }

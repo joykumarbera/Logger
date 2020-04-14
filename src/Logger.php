@@ -46,7 +46,6 @@ class Logger extends BaseLogger implements LoggerInterface
         
         $log_message = $this->formatLogMessage($eLevel, $message);
         $this->writeLog($this->file_handle,$log_message);
-        $this->closeFileResource();
     }
 
     /**
