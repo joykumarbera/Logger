@@ -14,7 +14,7 @@ create a new php file and add the following
 include 'vendor/autoload.php';
 $log = new Bera\Joy\Logger('log.txt',__DIR__);
 $log->log('Hello World'); 
-// 2020-04-13 13:10:07 :: INFO :: Hello World 
+// 2020-04-14 13:10:07 :: INFO :: Hello World 
 ```
 you can also modify error levels indication for example:
 
