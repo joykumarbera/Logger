@@ -5,8 +5,7 @@ Bera Logger is simple php logger which you can use in your php projects to log i
 ## Installation
 
 ```bash
-git clone https://github.com/joykumarbera/Logger.git
-composer install --no-dev --optimize-autoloader
+composer require bera/logger
 ```
 
 ## Usage
